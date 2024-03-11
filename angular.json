@@ -99,6 +99,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "wallet-manager:build:production",
+              "serveTarget": "wallet-manager:serve:production"
+            },
+            "development": {
+              "buildTarget": "wallet-manager:build:development",
+              "serveTarget": "wallet-manager:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

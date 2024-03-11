@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "administrador-de-billetera": {
+      "hosting": {
+        "wallet-manager": [
+          "administrador-de-billetera"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "administrador-de-billetera"
+  }
+}

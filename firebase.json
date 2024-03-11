@@ -1,0 +1,11 @@
+{
+  "hosting": [
+    {
+      "target": "wallet-manager",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "us-west1"
+      }
+    }
+  ]
+}
